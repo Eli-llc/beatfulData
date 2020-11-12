@@ -35,7 +35,7 @@ class FileNotFoundError2(MyError):
         MyError.__init__(self, message)
 
 
-class NotFoundCaseId(MyError):
+class CaseIdNotFound(MyError):
     def __init__(self, message):
         MyError.__init__(self, message)
 
@@ -51,16 +51,11 @@ class JsonMatchError(MyError):
         MyError.__init__(self, message)
 
 
-class ClearDataError(MyError):
+class DataTypeNotSupportError(MyError):
     def __init__(self, message):
         MyError.__init__(self, message)
 
 
-class SaveConfigError(MyError):
-    def __init__(self, message):
-        MyError.__init__(self, message)
-
-
-class ModifyRuleError(MyError):
+class DataSizeOutofRangeError(MyError):
     def __init__(self, message):
         MyError.__init__(self, message)
