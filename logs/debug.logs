@@ -1,0 +1,294 @@
+2020-11-12 16:09:07.(msecs)d Thu root INFO /Users/eoitek/PycharmProjects/beautfulData/common/log.py:78 <module> 123
+2020-11-12 16:09:07.(msecs)d Thu mu INFO /Users/eoitek/PycharmProjects/beautfulData/common/log.py:81 <module> 456
+2020-11-12 16:09:07.(msecs)d Thu mu INFO /Users/eoitek/PycharmProjects/beautfulData/common/log.py:81 <module> 456
+2020-11-12 17:19:32.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:19:32.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:19:32.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:27 parse_yaml Parse config result is:
+{'time': {'time_fragment': 'timestamp', 'time_start': 0, 'time_end': 0, 'time_duration': 10, 'time_interval': 1, 'time_delta': 1}, 'data': {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}, 'output': {'format': 'json', 'type': 'file', 'path': '../data/output.json'}}
+2020-11-12 17:19:32.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config time from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'time_fragment': 'timestamp', 'time_start': 0, 'time_end': 0, 'time_duration': 10, 'time_interval': 1, 'time_delta': 1}
+2020-11-12 17:19:32.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config data from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}
+2020-11-12 17:19:32.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config output from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'format': 'json', 'type': 'file', 'path': '../data/output.json'}
+2020-11-12 17:20:38.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:20:38.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:20:38.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:27 parse_yaml Parse config result is:
+{'time': {'time_fragment': 'timestamp', 'time_start': 0, 'time_end': 0, 'time_duration': 10, 'time_interval': 1, 'time_delta': 1}, 'data': {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}, 'output': {'format': 'json', 'type': 'file', 'path': '../data/output.json'}}
+2020-11-12 17:20:38.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config time from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'time_fragment': 'timestamp', 'time_start': 0, 'time_end': 0, 'time_duration': 10, 'time_interval': 1, 'time_delta': 1}
+2020-11-12 17:20:38.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config data from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}
+2020-11-12 17:20:38.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config output from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'format': 'json', 'type': 'file', 'path': '../data/output.json'}
+2020-11-12 17:22:11.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:22:11.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:22:11.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:27 parse_yaml Parse config result is:
+{'time': {'time_fragment': 'timestamp', 'time_start': 0, 'time_end': 0, 'time_duration': 10, 'time_interval': 1, 'time_delta': 1}, 'data': {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}, 'output': {'format': 'json', 'type': 'file', 'path': '../data/output.json'}}
+2020-11-12 17:22:11.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config time from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'time_fragment': 'timestamp', 'time_start': 0, 'time_end': 0, 'time_duration': 10, 'time_interval': 1, 'time_delta': 1}
+2020-11-12 17:22:11.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config data from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}
+2020-11-12 17:22:11.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config output from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'format': 'json', 'type': 'file', 'path': '../data/output.json'}
+2020-11-12 17:23:08.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:23:08.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:23:08.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:27 parse_yaml Parse config result is:
+{'time': {'time_fragment': 'timestamp', 'time_start': 0, 'time_end': 0, 'time_duration': 10, 'time_interval': 1, 'time_delta': 1}, 'data': {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}, 'output': {'format': 'json', 'type': 'file', 'path': '../data/output.json'}}
+2020-11-12 17:23:08.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config time from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'time_fragment': 'timestamp', 'time_start': 0, 'time_end': 0, 'time_duration': 10, 'time_interval': 1, 'time_delta': 1}
+2020-11-12 17:23:08.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config data from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}
+2020-11-12 17:23:08.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config output from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'format': 'json', 'type': 'file', 'path': '../data/output.json'}
+2020-11-12 17:24:57.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:24:57.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:24:57.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:27 parse_yaml Parse config result is:
+{'time': {'time_fragment': 'timestamp', 'time_start': 0, 'time_end': 0, 'time_duration': 10, 'time_interval': 1, 'time_delta': 1}, 'data': {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}, 'output': {'format': 'json', 'type': 'file', 'path': '../data/output.json'}}
+2020-11-12 17:24:57.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config time from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'time_fragment': 'timestamp', 'time_start': 0, 'time_end': 0, 'time_duration': 10, 'time_interval': 1, 'time_delta': 1}
+2020-11-12 17:24:57.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config data from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}
+2020-11-12 17:24:57.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config output from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'format': 'json', 'type': 'file', 'path': '../data/output.json'}
+2020-11-12 17:27:39.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:27:39.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:27:39.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:27 parse_yaml Parse config result is:
+{'time': {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}, 'data': {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}, 'output': {'format': 'json', 'type': 'file', 'path': '../data/output.json'}}
+2020-11-12 17:27:39.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config time from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}
+2020-11-12 17:27:39.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config data from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}
+2020-11-12 17:27:39.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config output from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'format': 'json', 'type': 'file', 'path': '../data/output.json'}
+2020-11-12 17:27:52.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:27:52.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:27:52.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:27 parse_yaml Parse config result is:
+{'time': {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}, 'data': {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}, 'output': {'format': 'json', 'type': 'file', 'path': '../data/output.json'}}
+2020-11-12 17:27:52.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config time from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}
+2020-11-12 17:27:52.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config data from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}
+2020-11-12 17:27:52.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config output from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'format': 'json', 'type': 'file', 'path': '../data/output.json'}
+2020-11-12 17:28:21.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:28:21.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:28:21.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:27 parse_yaml Parse config result is:
+{'time': {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}, 'data': {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}, 'output': {'format': 'json', 'type': 'file', 'path': '../data/output.json'}}
+2020-11-12 17:28:21.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config time from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}
+2020-11-12 17:28:21.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config data from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}
+2020-11-12 17:28:21.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config output from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'format': 'json', 'type': 'file', 'path': '../data/output.json'}
+2020-11-12 17:50:58.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:50:58.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:50:58.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:27 parse_yaml Parse config result is:
+{'time': {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}, 'data': {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}, 'output': {'format': 'json', 'type': 'file', 'path': '../data/output.json'}}
+2020-11-12 17:50:58.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config time from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}
+2020-11-12 17:50:58.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config data from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}
+2020-11-12 17:50:58.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config output from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'format': 'json', 'type': 'file', 'path': '../data/output.json'}
+2020-11-12 17:53:18.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:53:18.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:53:18.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:53:18.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:27 parse_yaml Parse config result is:
+{'time': {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}, 'data': {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}, 'output': {'format': 'json', 'type': 'file', 'path': '../data/output.json'}}
+2020-11-12 17:53:18.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config time from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}
+2020-11-12 17:53:18.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config data from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}
+2020-11-12 17:53:18.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config output from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'format': 'json', 'type': 'file', 'path': '../data/output.json'}
+2020-11-12 17:53:35.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:53:35.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:53:35.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:53:35.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:27 parse_yaml Parse config result is:
+{'time': {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}, 'data': {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}, 'output': {'format': 'json', 'type': 'file', 'path': '../data/output.json'}}
+2020-11-12 17:53:35.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config time from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}
+2020-11-12 17:53:35.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config data from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}
+2020-11-12 17:53:35.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config output from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'format': 'json', 'type': 'file', 'path': '../data/output.json'}
+2020-11-12 17:53:56.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:53:56.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:54:22.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:54:22.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:54:22.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:27 parse_yaml Parse config result is:
+{'time': {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}, 'data': {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}, 'output': {'format': 'json', 'type': 'file', 'path': '../data/output.json'}}
+2020-11-12 17:54:22.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config time from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}
+2020-11-12 17:54:22.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config data from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}
+2020-11-12 17:54:22.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config output from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'format': 'json', 'type': 'file', 'path': '../data/output.json'}
+2020-11-12 17:54:50.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:54:50.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:54:50.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:27 parse_yaml Parse config result is:
+{'time': {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}, 'data': {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}, 'output': {'format': 'json', 'type': 'file', 'path': '../data/output.json'}}
+2020-11-12 17:54:50.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config time from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}
+2020-11-12 17:54:50.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config data from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}
+2020-11-12 17:54:50.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config output from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'format': 'json', 'type': 'file', 'path': '../data/output.json'}
+2020-11-12 17:55:39.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:55:39.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:55:39.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:27 parse_yaml Parse config result is:
+{'time': {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}, 'data': {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}, 'output': {'format': 'json', 'type': 'file', 'path': '../data/output.json'}}
+2020-11-12 17:55:39.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config time from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}
+2020-11-12 17:55:39.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config data from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}
+2020-11-12 17:55:39.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config output from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'format': 'json', 'type': 'file', 'path': '../data/output.json'}
+2020-11-12 17:56:34.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:56:34.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:56:34.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:27 parse_yaml Parse config result is:
+{'time': {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}, 'data': {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}, 'output': {'format': 'json', 'type': 'file', 'path': '../data/output.json'}}
+2020-11-12 17:56:34.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config time from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}
+2020-11-12 17:56:34.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config data from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}
+2020-11-12 17:56:34.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config output from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'format': 'json', 'type': 'file', 'path': '../data/output.json'}
+2020-11-12 17:56:34.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 17:56:34.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:27 parse_yaml Parse config result is:
+{'time': {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}, 'data': {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}, 'output': {'format': 'json', 'type': 'file', 'path': '../data/output.json'}}
+2020-11-12 17:56:34.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config time from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}
+2020-11-12 17:56:34.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config data from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}
+2020-11-12 17:56:34.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config output from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'format': 'json', 'type': 'file', 'path': '../data/output.json'}
+2020-11-12 18:03:55.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 18:03:55.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 18:03:56.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:27 parse_yaml Parse config result is:
+{'time': {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}, 'data': {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}, 'output': {'format': 'json', 'type': 'file', 'path': '../data/output.json'}}
+2020-11-12 18:03:56.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config time from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}
+2020-11-12 18:03:56.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config data from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}
+2020-11-12 18:03:56.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config output from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'format': 'json', 'type': 'file', 'path': '../data/output.json'}
+2020-11-12 18:04:43.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 18:04:43.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 18:04:43.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:27 parse_yaml Parse config result is:
+{'time': {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}, 'data': {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}, 'output': {'format': 'json', 'type': 'file', 'path': '../data/output.json'}}
+2020-11-12 18:04:43.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config time from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}
+2020-11-12 18:04:43.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config data from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}
+2020-11-12 18:04:43.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config output from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'format': 'json', 'type': 'file', 'path': '../data/output.json'}
+2020-11-12 18:05:03.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 18:05:03.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 18:05:03.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:27 parse_yaml Parse config result is:
+{'time': {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}, 'data': {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}, 'output': {'format': 'json', 'type': 'file', 'path': '../data/output.json'}}
+2020-11-12 18:05:03.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config time from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}
+2020-11-12 18:05:03.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config data from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}
+2020-11-12 18:05:03.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config output from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'format': 'json', 'type': 'file', 'path': '../data/output.json'}
+2020-11-12 18:05:25.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 18:05:25.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 18:05:25.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:27 parse_yaml Parse config result is:
+{'time': {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}, 'data': {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}, 'output': {'format': 'json', 'type': 'file', 'path': '../data/output.json'}}
+2020-11-12 18:05:25.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config time from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}
+2020-11-12 18:05:25.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config data from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}
+2020-11-12 18:05:25.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config output from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'format': 'json', 'type': 'file', 'path': '../data/output.json'}
+2020-11-12 18:06:03.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 18:06:03.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 18:06:03.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:27 parse_yaml Parse config result is:
+{'time': {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}, 'data': {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}, 'output': {'format': 'json', 'type': 'file', 'path': '../data/output.json'}}
+2020-11-12 18:06:03.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config time from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}
+2020-11-12 18:06:03.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config data from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}
+2020-11-12 18:06:03.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config output from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'format': 'json', 'type': 'file', 'path': '../data/output.json'}
+2020-11-12 18:06:03.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 18:06:03.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:27 parse_yaml Parse config result is:
+{'time': {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}, 'data': {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}, 'output': {'format': 'json', 'type': 'file', 'path': '../data/output.json'}}
+2020-11-12 18:06:03.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config time from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}
+2020-11-12 18:06:03.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config data from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}
+2020-11-12 18:06:03.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config output from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'format': 'json', 'type': 'file', 'path': '../data/output.json'}
+2020-11-12 18:06:34.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 18:06:34.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 18:06:34.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:27 parse_yaml Parse config result is:
+{'time': {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}, 'data': {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}, 'output': {'format': 'json', 'type': 'file', 'path': '../data/output.json'}}
+2020-11-12 18:06:34.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config time from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}
+2020-11-12 18:06:34.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config data from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}
+2020-11-12 18:06:34.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config output from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'format': 'json', 'type': 'file', 'path': '../data/output.json'}
+2020-11-12 18:06:39.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 18:06:39.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 18:06:39.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:27 parse_yaml Parse config result is:
+{'time': {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}, 'data': {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}, 'output': {'format': 'json', 'type': 'file', 'path': '../data/output.json'}}
+2020-11-12 18:06:39.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config time from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}
+2020-11-12 18:06:39.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config data from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}
+2020-11-12 18:06:39.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config output from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'format': 'json', 'type': 'file', 'path': '../data/output.json'}
+2020-11-12 18:06:41.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 18:06:41.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 18:06:41.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:27 parse_yaml Parse config result is:
+{'time': {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}, 'data': {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}, 'output': {'format': 'json', 'type': 'file', 'path': '../data/output.json'}}
+2020-11-12 18:06:41.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config time from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}
+2020-11-12 18:06:41.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config data from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}
+2020-11-12 18:06:41.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config output from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'format': 'json', 'type': 'file', 'path': '../data/output.json'}
+2020-11-12 18:07:21.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 18:07:21.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 18:07:21.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:27 parse_yaml Parse config result is:
+{'time': {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}, 'data': {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}, 'output': {'format': 'json', 'type': 'file', 'path': '../data/output.json'}}
+2020-11-12 18:07:21.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config time from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}
+2020-11-12 18:07:21.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config data from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}
+2020-11-12 18:07:21.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config output from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'format': 'json', 'type': 'file', 'path': '../data/output.json'}
+2020-11-12 18:07:21.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:17 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 18:07:21.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:27 parse_yaml Parse config result is:
+{'time': {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}, 'data': {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}, 'output': {'format': 'json', 'type': 'file', 'path': '../data/output.json'}}
+2020-11-12 18:07:21.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config time from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}
+2020-11-12 18:07:21.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config data from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}
+2020-11-12 18:07:21.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:34 get_conf Get config output from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'format': 'json', 'type': 'file', 'path': '../data/output.json'}
+2020-11-12 18:12:09.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:19 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 18:14:00.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:19 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 18:14:00.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:19 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 18:14:00.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:29 parse_yaml Parse config result is:
+{'time': {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}, 'data': {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}, 'output': {'format': 'json', 'type': 'file', 'path': '../data/output.json'}}
+2020-11-12 18:14:00.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:36 get_conf Get config time from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}
+2020-11-12 18:14:00.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:36 get_conf Get config data from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}
+2020-11-12 18:14:00.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:36 get_conf Get config output from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'format': 'json', 'type': 'file', 'path': '../data/output.json'}
+2020-11-12 18:14:00.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:19 __init__ Using config file: /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml
+2020-11-12 18:14:00.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:29 parse_yaml Parse config result is:
+{'time': {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}, 'data': {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}, 'output': {'format': 'json', 'type': 'file', 'path': '../data/output.json'}}
+2020-11-12 18:14:00.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:36 get_conf Get config time from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'time-fragment': 'timestamp', 'time-start': 0, 'time-end': 0, 'time-duration': 10, 'time-interval': 1, 'time-delta': 1}
+2020-11-12 18:14:00.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:36 get_conf Get config data from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'fragment': {'content': 'string', 'severity': 10, 'type': 'trigger', 'source': 'source', 'host': 'host', 'objectClass': 'object class', 'object': 'object', 'parameter': 'pamameter', 'cluster': 'cluster'}}
+2020-11-12 18:14:00.(msecs)d Thu MyLogger INFO /Users/eoitek/PycharmProjects/beautfulData/common/config.py:36 get_conf Get config output from /Users/eoitek/PycharmProjects/beautfulData/config/config.yaml:
+Content: {'format': 'json', 'type': 'file', 'path': '../data/output.json'}
