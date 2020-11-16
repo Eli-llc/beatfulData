@@ -1,20 +1,20 @@
 time:
   # 设定数据的规律
   time-fragment: "timestamp"
-  time-format: "%Y-%m-%d"
+  time-format: "%Y-%m-%d %H:%M:%S"
   time-start: 0
   time-end: 0
-  time-duration: 10
-  time-interval: 1
-  time-delta: 1
+  time-duration: 7200
+  time-interval: 60
+  time-delta: 10
+  count: -1
+  realtime: true
 
 data:
   fragments:
     # 数据都有哪些字段，格式 fragment: type
-    # 字符串数据类型 sentence, word, mul-word
-    # 数字类型 int, float
     content: "sentence"
-    severity: "int"
+    severity: "severity"
     type: "word"
     source: "word"
     host: "word"
@@ -26,15 +26,15 @@ data:
 output:
   # 数据的输出
   format: json  # json, xml
-  type: file
-  path: ../data/output.json
+  type: json
+  file: ./output/result.json
 #  destination:
 #    1:
-#      format: json
+#      format: to_json
 #      type: file
-#      path: ./output.json
+#      path: ./output.to_json
 #    2:
-#      format: json
+#      format: to_json
 #      type: kafka
 #      bootstrap-server: 192.168.31.132:9092
 #      topic: auto-data

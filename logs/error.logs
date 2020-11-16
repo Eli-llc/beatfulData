@@ -1,0 +1,2 @@
+2020-11-13 22:03:25 ERROR Data type: mul-word not support.Available values ["sentence", "word", "mul_word", "int", "float"]
+2020-11-16 09:43:59 ERROR Data type: 2020-11-15 not support.Available values ["sentence", "word", "mul-word", "int", "float"]

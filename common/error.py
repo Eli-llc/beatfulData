@@ -56,6 +56,21 @@ class DataTypeNotSupportError(MyError):
         MyError.__init__(self, message)
 
 
-class DataSizeOutofRangeError(MyError):
+class DataSizeOutOfRangeError(MyError):
+    def __init__(self, message):
+        MyError.__init__(self, message)
+
+
+class FragmentFormatError(MyError):
+    def __init__(self, message):
+        MyError.__init__(self, message)
+
+
+class UnknownOutPutType(MyError):
+    def __init__(self, message):
+        MyError.__init__(self, message)
+
+
+class FloatPrecisionError(MyError):
     def __init__(self, message):
         MyError.__init__(self, message)
