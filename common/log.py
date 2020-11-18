@@ -1,5 +1,6 @@
 import logging
 import os
+import sys
 
 
 class MyLog:
@@ -62,10 +63,15 @@ class MyLog:
             error_log.setLevel(40)  # error.log只存储error以上的log
             debug_log = self._file_handler(self._log_name("debug.logs"), level="all")
             # 这里终端的输出和error.log存储的内容是一样的
-            stdout = self._stream_handler("all")
+            # how standard out behaviour
+            verbose = True if "--verbose" in sys.argv or "-v" in sys.argv else False
+            quite = True if "--quite" in sys.argv or "-q" in sys.argv else False
+            level = "all" if verbose else None
+            stdout = self._stream_handler(level)
             my_logger.addHandler(error_log)
             my_logger.addHandler(debug_log)
-            my_logger.addHandler(stdout)
+            if not quite:
+                my_logger.addHandler(stdout)
         return my_logger
 
 

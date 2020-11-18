@@ -3,10 +3,12 @@ import random
 import time
 
 from common.error import FragmentFormatError
+from common.log import logger
 
 
 class ComposeData:
     def __init__(self, args, raw):
+        logger.info("Start class ComposeData")
         self.args = args
         self.raw = raw
 
@@ -31,6 +33,7 @@ class ComposeData:
         # for simple code
         def add_time(current_base_time):
             delta = random.randint(time_interval - time_delta, time_interval + time_delta)
+            logger.debug(f"realtime was setting to {realtime}")
             if realtime != "false":
                 time.sleep(delta)
                 current_base_time = time.time()
@@ -42,42 +45,28 @@ class ComposeData:
         if count > 0:
             while count > 0:
                 current_time = add_time(current_time)
-                yield {time_fragment_name: self.get_time_value(time_format, current_time)}
+                return_time = {time_fragment_name: self.format_time(time_format, current_time)}
+                logger.debug(f"get time is {return_time}")
+                yield return_time
                 count -= 1
         else:
             while current_time <= time_end:
                 current_time = add_time(current_time)
-                yield {time_fragment_name: self.get_time_value(time_format, current_time)}
+                return_time = {time_fragment_name: self.format_time(time_format, current_time)}
+                logger.debug(f"get time is {return_time}")
+                yield return_time
 
     def fill_fragment_values(self, all_fragments: dict) -> dict:
         fragments_with_value = {}
         # replace fragments' value
         for key in all_fragments:
             category = all_fragments[key]
-            values = self.raw.get_data(category, 10)
+            values = self.raw.get_data(category)
             fragments_with_value[key] = random.choice(values)
         return fragments_with_value
 
-    def merge_fragments(self) -> dict:
-        # fragments in config file
-        config_fragments: dict = self.args.config_fragments
-        # fragments from standard input
-        input_fragments: list = self.args.input_fragments
-        if not input_fragments:
-            return config_fragments
-        # merge fragments
-        try:
-            for frag_str in input_fragments:
-                frag = frag_str.split("=")
-                key = frag[0]
-                config_fragments[key] = frag[1]
-        except IndexError:
-            message = "The standard input fragments must have format like key=type!"
-            raise FragmentFormatError(message)
-        return config_fragments
-
     @staticmethod
-    def get_time_value(time_format: str, timestamp=None):
+    def format_time(time_format: str, timestamp=None):
         if not timestamp:
             cur_time_obj = datetime.datetime.now()
         else:

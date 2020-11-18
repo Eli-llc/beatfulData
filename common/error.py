@@ -71,6 +71,11 @@ class UnknownOutPutType(MyError):
         MyError.__init__(self, message)
 
 
+class UnknownOutPutFormat(MyError):
+    def __init__(self, message):
+        MyError.__init__(self, message)
+
+
 class FloatPrecisionError(MyError):
     def __init__(self, message):
         MyError.__init__(self, message)

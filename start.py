@@ -3,15 +3,17 @@ from common.params import Param
 from tools.compose_data import ComposeData
 from tools.output_data import OutputData
 from tools.raw_data import RawDataFactory
+from common.log import logger
 
 
 class CreateData:
     def __init__(self):
         self.param = Param()
         self.args = self.param.options()
+        logger.debug("All args' final value is:\n{}".format(self.args.__dict__))
         self.raw_data = RawDataFactory()
         self.comp_data = ComposeData(self.args, self.raw_data)
-        self.op_data = OutputData(self.param.config)
+        self.op_data = OutputData(self.args)
 
     def run(self):
         """
@@ -25,21 +27,23 @@ class CreateData:
         4. close
         :return:
         """
-        all_fragments = self.comp_data.merge_fragments()
-        file_type = self.args.op_type
+        all_fragments = self.args.fragments
+        logger.info(f"All fragments with type is\n{all_fragments}")
+        self.op_data.op_format = self.args.op_format
+        op_type = self.args.op_type
+        logger.info(f"output type is {op_type}")
         for time_value in self.comp_data.get_time():
             fragment_with_value = self.comp_data.fill_fragment_values(all_fragments)
             fragment_with_value.update(time_value)
-            if file_type.upper() == "JSON":
-                self.op_data.to_json(fragment_with_value, self.op_data.fp)
-            elif file_type.upper() == "CSV":
-                self.op_data.to_csv(fragment_with_value)
-            elif file_type.upper() == "KAFKA":
+            # logger.debug(f"All fragments with value is:\n{fragment_with_value}")
+            if op_type.upper() == "FILE":
+                self.op_data.to_file(fragment_with_value)
+            elif op_type.upper() == "KAFKA":
                 self.op_data.to_kafka(fragment_with_value)
-            elif "ES" in file_type.upper() or "ElasticSearch".upper() in file_type.upper():
+            elif "ES" in op_type.upper() or "ElasticSearch".upper() in op_type.upper():
                 self.op_data.to_es(fragment_with_value)
             else:
-                message = "Could not handle output type {}!".format(file_type)
+                message = "Could not handle output type {}!".format(op_type)
                 raise UnknownOutPutType(message)
         self.op_data.close()
 

@@ -1,7 +1,7 @@
 time:
   # 设定数据的规律
-  time-fragment: "timestamp"
-  time-format: "%Y-%m-%d %H:%M:%S"
+  time-fragment: "timestamp1"
+  time-format: "millSeconds"
   time-start: 0
   time-end: 0
   time-duration: 7200
@@ -25,16 +25,18 @@ data:
 
 output:
   # 数据的输出
-  format: json  # json, xml
-  type: json
-  file: ./output/result.json
+  format: csv  # json, csv
+  type: kafka
+  file: ./output/result.csv
+  bootstrap: "192.168.31.132:9092"
+  topic: "autott1"
 #  destination:
 #    1:
-#      format: to_json
+#      format: transfer_to_json
 #      type: file
-#      path: ./output.to_json
+#      path: ./output.transfer_to_json
 #    2:
-#      format: to_json
+#      format: transfer_to_json
 #      type: kafka
 #      bootstrap-server: 192.168.31.132:9092
 #      topic: auto-data
