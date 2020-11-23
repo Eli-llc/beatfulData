@@ -2,6 +2,7 @@ import json
 from kafka import KafkaProducer
 from kafka.admin import KafkaAdminClient, NewTopic
 from kafka.errors import KafkaError
+from elasticsearch import Elasticsearch
 
 from common.error import UnknownOutPutFormat
 from common.log import logger
@@ -9,23 +10,35 @@ from common.log import logger
 
 class OutputData:
     def __init__(self, args):
+        self.args = args
+
+    def __enter__(self):
         logger.debug("Start class OutputData!")
-        self.content_format = args.op_format.upper()
-        self.output_type = args.op_type.upper()
+        self.content_format = self.args.op_format.upper()
+        self.output_type = self.args.op_type.upper()
         if self.output_type == "FILE":
-            self.fp = open(args.op_file, "w")
+            self.fp = open(self.args.op_file, "w")
             self.csv_list = []
         elif self.output_type == "KAFKA":
             # check topic exists
-            self.topic = args.op_topic
+            self.topic = self.args.op_topic
             kafka_topic = NewTopic(name=self.topic, num_partitions=1, replication_factor=1)
-            client = KafkaAdminClient(bootstrap_servers=args.op_bootstrap)
+            client = KafkaAdminClient(bootstrap_servers=self.args.op_bootstrap)
             try:
                 client.delete_topics([kafka_topic])
                 client.create_topics([kafka_topic])
             except KafkaError:
                 logger.warn("delete or create kafka topic raised error, ignore it!")
-            self.producer = KafkaProducer(bootstrap_servers=args.op_bootstrap)
+            self.producer = KafkaProducer(bootstrap_servers=self.args.op_bootstrap)
+        elif self.output_type == "ES" or self.output_type == "ElasticSearch".upper():
+            self.es = Elasticsearch(hosts=self.args.op_es_hosts,
+                                    sniff_on_start=True,
+                                    # sniff_on_connection_fail=True,
+                                    sniffer_timeout=20,
+                                    # http_auth=('user', 'secret')
+                                    )
+            self.es_index = self.args.op_index
+        return self
 
     def to_file(self, fragments_values):
         message = self.transfer_format(fragments_values)
@@ -45,15 +58,25 @@ class OutputData:
     def to_kafka(self, fragments_values):
         # message = json.dumps(fragment_with_value, ensure_ascii=False)
         message = self.transfer_format(fragments_values)
-        print(message)
         self.producer.send(self.topic, bytes(message, encoding="utf-8"))
 
     def to_es(self, fragment_with_value):
-        pass
+        self.es.index(index=self.es_index, body=fragment_with_value)
 
-    def close(self):
+    # def close(self):
+    #     logger.info(f"items already output finished, close resource!")
+    #     if self.output_type == "FILE":
+    #         self.fp.close()
+    #     elif self.output_type == "KAFKA":
+    #         self.producer.close()
+    #     elif self.output_type == "ES" or self.output_type == "ElasticSearch".upper():
+    #         self.es.close()
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
         logger.info(f"items already output finished, close resource!")
         if self.output_type == "FILE":
             self.fp.close()
         elif self.output_type == "KAFKA":
             self.producer.close()
+        elif self.output_type == "ES" or self.output_type == "ElasticSearch".upper():
+            self.es.close()

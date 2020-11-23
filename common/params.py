@@ -66,6 +66,10 @@ class Param:
                                help="specify the kafka's bootstrap server while type setting to kafka")
         op_parser.add_argument('--output-topic', dest="op_topic", default=op_config.get("topic"),
                                help="specify the kafka's topic while type setting to kafka")
+        op_parser.add_argument('--output-es-hosts', dest="op_es_hosts", default=op_config.get("es-hosts"), type=list,
+                               nargs="*", help="specify the ElasticSearch's hosts while type setting to ElasticSearch")
+        op_parser.add_argument('--output-index', dest="op_index", default=op_config.get("index"),
+                               help="specify the ElasticSearch's index while type setting to ElasticSearch")
         # return parameters
         args = self.parser.parse_args()
         return self.merge_fragments(args)

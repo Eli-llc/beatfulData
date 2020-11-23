@@ -1,6 +1,6 @@
 time:
   # 设定数据的规律
-  time-fragment: "timestamp1"
+  time-fragment: "eventTime"
   time-format: "millSeconds"
   time-start: 0
   time-end: 0
@@ -15,28 +15,29 @@ data:
     # 数据都有哪些字段，格式 fragment: type
     content: "sentence"
     severity: "severity"
-    type: "word"
-    source: "word"
-    host: "word"
-    objectClass: "mul-word"
-    object: "mul-word"
-    parameter: "mul-word"
-    cluster: "word"
+    source: "host"
+    service: "service"
+    objectClass: "objectClass"
+    object: "oc_word"
+    parameter: "parameter"
+    cluster: "cluster"
+    ext1: "word"
+    扩展字段1扩展字段2扩展字段3扩展字段4扩展字段5扩展字段6: "word"
+    ext2: "float"
+    e4: "mul-word"
+    extend frag 5: "word"
 
 output:
   # 数据的输出
   format: csv  # json, csv
-  type: kafka
-  file: ./output/result.csv
+  type: kafka  # file, kafka, es
+  # file
+  file: ./output/result.json
+  # kafka
   bootstrap: "192.168.31.132:9092"
-  topic: "autott1"
-#  destination:
-#    1:
-#      format: transfer_to_json
-#      type: file
-#      path: ./output.transfer_to_json
-#    2:
-#      format: transfer_to_json
-#      type: kafka
-#      bootstrap-server: 192.168.31.132:9092
-#      topic: auto-data
+  topic: "alert-silence"
+  # elastic search
+  es-hosts:
+    - "192.168.21.92:9200"
+  index: "es-index1"
+  ################## end
