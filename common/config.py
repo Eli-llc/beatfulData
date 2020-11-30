@@ -12,8 +12,7 @@ class ParseYaml:
     yaml_file = "../config/config.yaml"
 
     def __init__(self, conf=None):
-        if not conf:
-            conf = ParseYaml.yaml_file
+        conf = conf or ParseYaml.yaml_file
         yaml_file_abspath = os.path.join(os.path.dirname(__file__), conf)
         self.yaml_file = os.path.abspath(yaml_file_abspath)
         logger.info("Using config file: {}".format(self.yaml_file))
@@ -38,10 +37,3 @@ class ParseYaml:
             message = "No config defined in file {}.".format(key, self.yaml_file)
             raise ConfKeyNotFound(message)
         return ret
-
-
-if __name__ == "__main__":
-    config = ParseYaml()
-    config.get_conf("mysql")
-else:
-    config = ParseYaml()

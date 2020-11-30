@@ -71,6 +71,7 @@ class MyLog:
             my_logger.addHandler(error_log)
             my_logger.addHandler(debug_log)
             if not quite:
+                stdout.setLevel(30)
                 my_logger.addHandler(stdout)
         return my_logger
 

@@ -4,7 +4,7 @@ from kafka.admin import KafkaAdminClient, NewTopic
 from kafka.errors import KafkaError
 from elasticsearch import Elasticsearch
 
-from common.error import UnknownOutPutFormat
+from common.error import UnknownOutPutFormat, UnknownOutPutType
 from common.log import logger
 
 
@@ -40,11 +40,16 @@ class OutputData:
             self.es_index = self.args.op_index
         return self
 
-    def to_file(self, fragments_values):
-        message = self.transfer_format(fragments_values)
-        self.fp.write(message + "\n")
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        logger.info(f"items already output finished, close resource!")
+        if self.output_type == "FILE":
+            self.fp.close()
+        elif self.output_type == "KAFKA":
+            self.producer.close()
+        elif self.output_type == "ES" or self.output_type == "ElasticSearch".upper():
+            self.es.close()
 
-    def transfer_format(self, fragments_values):
+    def _transfer_format(self, fragments_values):
         if self.content_format == "JSON":
             message = json.dumps(fragments_values, ensure_ascii=False)
         elif self.content_format == "CSV":
@@ -55,28 +60,25 @@ class OutputData:
             raise UnknownOutPutFormat(message)
         return message
 
+    def to_file(self, fragments_values):
+        message = self._transfer_format(fragments_values)
+        self.fp.write(message + "\n")
+
     def to_kafka(self, fragments_values):
         # message = json.dumps(fragment_with_value, ensure_ascii=False)
-        message = self.transfer_format(fragments_values)
+        message = self._transfer_format(fragments_values)
         self.producer.send(self.topic, bytes(message, encoding="utf-8"))
 
     def to_es(self, fragment_with_value):
         self.es.index(index=self.es_index, body=fragment_with_value)
 
-    # def close(self):
-    #     logger.info(f"items already output finished, close resource!")
-    #     if self.output_type == "FILE":
-    #         self.fp.close()
-    #     elif self.output_type == "KAFKA":
-    #         self.producer.close()
-    #     elif self.output_type == "ES" or self.output_type == "ElasticSearch".upper():
-    #         self.es.close()
-
-    def __exit__(self, exc_type, exc_val, exc_tb):
-        logger.info(f"items already output finished, close resource!")
-        if self.output_type == "FILE":
-            self.fp.close()
-        elif self.output_type == "KAFKA":
-            self.producer.close()
-        elif self.output_type == "ES" or self.output_type == "ElasticSearch".upper():
-            self.es.close()
+    def to_dest(self, op_type, fragment_with_value):
+        if op_type == "FILE":
+            self.to_file(fragment_with_value)
+        elif op_type == "KAFKA":
+            self.to_kafka(fragment_with_value)
+        elif "ES" in op_type or "ElasticSearch".upper() in op_type:
+            self.to_es(fragment_with_value)
+        else:
+            message = "Could not handle output type {}!".format(op_type)
+            raise UnknownOutPutType(message)

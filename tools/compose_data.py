@@ -2,7 +2,6 @@ import datetime
 import random
 import time
 
-from common.error import FragmentFormatError
 from common.log import logger
 
 
@@ -34,27 +33,31 @@ class ComposeData:
         def add_time(current_base_time):
             delta = random.randint(time_interval - time_delta, time_interval + time_delta)
             logger.debug(f"realtime was setting to {realtime}")
-            if realtime != "false":
-                time.sleep(delta)
-                current_base_time = time.time()
+            if realtime:
+                current_base_time = time.time() + delta
+                sleep_time = delta
             else:
+                sleep_time = 0
                 current_base_time += delta
-            return current_base_time
+            return current_base_time, sleep_time
 
         # count has high priority
+        sleep_time = 0
         if count > 0:
             while count > 0:
-                current_time = add_time(current_time)
+                time.sleep(sleep_time)
+                current_time, sleep_time = add_time(current_time)
                 return_time = {time_fragment_name: self.format_time(time_format, current_time)}
                 logger.debug(f"get time is {return_time}")
                 yield return_time
                 count -= 1
         else:
             while current_time <= time_end:
-                current_time = add_time(current_time)
+                time.sleep(sleep_time)
                 return_time = {time_fragment_name: self.format_time(time_format, current_time)}
                 logger.debug(f"get time is {return_time}")
                 yield return_time
+                current_time, sleep_time = add_time(current_time)
 
     def fill_fragment_values(self, all_fragments: dict) -> dict:
         fragments_with_value = {}

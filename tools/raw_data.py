@@ -82,7 +82,7 @@ class RawDataFactory:
     def _get_oc(**kwargs) -> list:
         oc_list = [
             "department",
-            # "region"
+            "region"
         ]
         return oc_list
 
@@ -98,9 +98,9 @@ class RawDataFactory:
     @staticmethod
     def _get_cluster(**kwargs) -> list:
         oc_cluster = [
-            "MySQL Cluster",
-            "Payment Cluster",
-            "Backup Cluster"
+            "Cluster",
+            # "Payment Cluster",
+            # "Backup Cluster"
         ]
         return oc_cluster
 
@@ -122,9 +122,7 @@ class RawDataFactory:
     def _get_oc_parameter(**kwargs) -> list:
         oc_param_list = [
             "param 16",
-            # "param 2",
-            # "param 32",
-            # "param 41",
+            "param 32",
             "param 58"
         ]
         return oc_param_list

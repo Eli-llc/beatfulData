@@ -44,7 +44,7 @@ class Param:
                                  help="adjust the interval, make two items has dynamic time gap.")
         time_parser.add_argument('--count', type=int, default=time_config.get("count"), dest="count",
                                  help="the count of items to produce. Note: It would disable --time-end setting.")
-        time_parser.add_argument('--realtime', choices=["true", "false"], default=time_config.get("realtime"),
+        time_parser.add_argument('--realtime', action="store_true", default=False,
                                  dest="realtime", help="realtime make two items wait the interval time.")
         # data params
         data_parser = self.parser.add_argument_group("Control data content")
@@ -96,10 +96,3 @@ class Param:
                 raise FragmentFormatError(message)
         args.fragments = config_fragments
         return args
-
-
-if __name__ == '__main__':
-    s = Param().options()
-    s.__dict__["liucun"] = "liucun"
-    print(s.__dict__)
-    print(s.liucun)
